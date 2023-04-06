@@ -1,0 +1,172 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 16px;
+}
+
+.registarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registarea h3 {
+    height: 42px;
+    line-height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    padding: 0 10px;
+    font-weight: 400;
+}
+
+.registarea h3 .login {
+    float: right;
+    font-size: 14px;
+}
+
+.error {
+    color: red;
+}
+
+.sucess {
+    color: green;
+}
+
+.reg_form {
+    width: 580px;
+    margin: 50px auto 0 auto;
+}
+
+.reg_form ul li {
+    font-size: 12px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.reg_form ul li .error .error_icon,
+.reg_form ul li .sucess .sucess_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.reg_form ul li .error .error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+
+.reg_form ul li .sucess .sucess_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    font-size: 12px;
+    color: #bebebe;
+    padding-left: 165px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.reg_form ul .agree {
+    padding-left: 85px;
+    margin-top: 28px;
+}
+
+.reg_form ul .agree input {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    color: #1fa3e6;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.reg_form ul .agree span {
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 13px;
+    text-align: center;
+}
+
+.reg_form ul .agree span a {
+    color: #1fa3e6;
+}
+
+.reg_form ul li .button {
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.footer .mod_copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .mod_copyright .link {
+    display: inline-block;
+    margin-top: 20px;
+    height: 24px;
+}
+
+.footer .mod_copyright .link li {
+    float: left;
+}
+
+.footer .mod_copyright .link li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+    margin: 2px 16px 0 16px;
+}
+
+.footer .mod_copyright .copyright {
+    height: 42px;
+    line-height: 21px;
+}

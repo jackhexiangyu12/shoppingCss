@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #646464;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+button {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5b8b\4f53", sans-serif;
+    /* 默认有灰色边框，我们应该手动去掉 */
+    border: 0px;
+    outline: none;
+}
+
+i,
+em {
+    font-style: normal;
+}

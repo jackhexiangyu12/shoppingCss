@@ -1,0 +1,168 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.nav {
+    height: 47px;
+    line-height: 47px;
+}
+
+.nav .navitems ul li {
+    float: left;
+}
+
+.nav .navitems ul li a {
+    font-size: 12px;
+    padding: 0 25px;
+}
+
+.nav .navitems ul li:first-child a,
+.nav .navitems ul li:nth-child(2) a,
+.nav .navitems ul li:nth-child(3) a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav .navitems ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e900';
+}
+
+.menu_bg {
+    height: 145px;
+    background: url(../upload/bg_03.png);
+}
+
+.menu {
+    width: 1200px;
+    height: 459px;
+}
+
+.menu ul li {
+    float: left;
+    width: 290px;
+    height: 459px;
+    margin-right: 13px;
+    /* text-align: center; */
+}
+
+.menu ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li .menu_pic_on {
+    position: relative;
+    height: 300px;
+    width: 289px;
+}
+
+.menu ul li .menu_pic_on img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.menu ul li span a {
+    display: inline-block;
+    width: 264px;
+    height: 40px;
+    margin: 0 12px;
+    font-size: 14px;
+    color: #666;
+}
+
+.menu ul li span a:hover {
+    color: #e60012;
+}
+
+.menu ul li .price {
+    display: block;
+    width: 274px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.menu ul li .price a {
+    float: left;
+    font-size: 17px;
+    color: #e60012;
+}
+
+.menu ul li .price a del {
+    margin-left: 12px;
+    font-size: 12px;
+    color: #a4a4a4;
+}
+
+.menu ul li .jindu {
+    position: relative;
+    width: 289px;
+    height: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #666;
+}
+
+.menu ul li .jindu li:first-child {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 49px;
+    height: 12px;
+}
+
+.menu ul li .jindu .jindu_pic {
+    position: absolute;
+    bottom: 0;
+    left: 52px;
+    width: 132px;
+    height: 12px;
+    margin-left: 7px;
+    border-radius: 6px;
+    border: 1px solid #ed282e;
+}
+
+.menu ul li .jindu .jindu_pic .juxing {
+    width: 87%;
+    height: 10px;
+    background-color: #ed282e;
+}
+
+.menu ul li .jindu ul .surplus {
+    position: absolute;
+    bottom: 0;
+    left: 195px;
+    height: 12px;
+    margin-left: 7px;
+}
+
+.menu ul li .jindu ul li:hover {
+    border: 0;
+}
+
+.menu ul li button {
+    width: 289px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #b1191a;
+}
